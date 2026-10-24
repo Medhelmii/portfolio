@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="max-w-5xl mx-auto px-4 pt-16">
         <Hero />
         <About />
         <Skills />

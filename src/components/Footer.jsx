@@ -1,7 +1,20 @@
 function Footer() {
     return (
-        <footer id="footer" className="py-20">
-            <h1 className="text-4xl font-bold">Footer</h1>
+        <footer className="border-t py-8 mt-20">
+            <div className="max-w-5xl mx-auto px-4 flex flex-col items-center gap-3 text-sm text-gray-600">
+                <div className="flex gap-6">
+                    <a href="https://github.com/Medhelmii" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/DEIN-PROFIL" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+                        LinkedIn
+                    </a>
+                    <a href="mailto:helmi.karoui1@gmail.com" className="hover:text-blue-600">
+                        E-Mail
+                    </a>
+                </div>
+                <p>© {new Date().getFullYear()} Mohamed Helmi Karoui</p>
+            </div>
         </footer>
     )
 }
