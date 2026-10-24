@@ -6,7 +6,7 @@ function Footer() {
                     <a href="https://github.com/Medhelmii" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
                         GitHub
                     </a>
-                    <a href="https://www.linkedin.com/in/DEIN-PROFIL" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+                    <a href="https://www.linkedin.com/in/mohamed-helmi-karoui-4341621a1" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
                         LinkedIn
                     </a>
                     <a href="mailto:helmi.karoui1@gmail.com" className="hover:text-blue-600">

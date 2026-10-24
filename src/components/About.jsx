@@ -7,23 +7,24 @@ function About() {
 
             <div className="max-w-3xl text-gray-600 leading-relaxed space-y-4">
                 <p>
-                    Ich bin Software Engineer aus Tunesien und lebe heute in Freiburg im
-                    Breisgau. Ich habe mein Ingenieurstudium in Informatik mit Schwerpunkt
-                    Software Engineering an der ESPRIT abgeschlossen.
+                    Ich bin Softwareingenieur aus Tunesien und lebe heute in Freiburg im
+                    Breisgau. Mein Diplom in Software Engineering habe ich 2024 an der
+                    ESPRIT abgeschlossen.
                 </p>
 
                 <p>
-                    Praktische Erfahrung habe ich in Praktika bei Insoméan Computer
-                    Solutions und SE Bordnetze gesammelt. Dort habe ich an
-                    Webanwendungen mit Spring Boot, Angular und .NET gearbeitet und
-                    CI/CD-Prozesse mit Docker und Jenkins kennengelernt.
+                    In meinem Abschlussprojekt bei Insoméan Computer Solutions habe ich eine
+                    Webanwendung mit Spring Boot und Angular entwickelt, Single Sign-On über
+                    Azure AD umgesetzt und die Anwendung mit Azure DevOps in die Cloud
+                    gebracht. Zusätzlich habe ich Freelance-Projekte realisiert – von
+                    E-Commerce bis zu Machine-Learning-Empfehlungssystemen.
                 </p>
 
                 <p>
                     Mich begeistert der ganze Weg einer Anwendung – vom Frontend über das
-                    Backend bis zum Deployment in der Cloud. Besonders interessieren mich
-                    Cloud- und DevOps-Themen. Aktuell suche ich eine Stelle, in der ich
-                    mein Wissen einbringen und weiter wachsen kann.
+                    Backend bis zum Deployment in der Cloud. Aktuell suche ich eine
+                    Junior-Stelle in einem modernen Tech-Umfeld in der Region Freiburg
+                    oder remote.
                 </p>
             </div>
         </section>

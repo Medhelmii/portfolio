@@ -1,19 +1,27 @@
 const skills = [
     {
         category: 'Frontend',
-        items: ['React', 'Angular', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'Tailwind'],
+        items: ['Angular', 'React', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Bootstrap'],
     },
     {
         category: 'Backend',
-        items: ['Spring Boot', 'Node.js', 'Express', 'C# / .NET'],
+        items: ['Java / Spring Boot', 'C# / .NET', 'Node.js / Express', 'Python', 'REST API', 'Hibernate'],
     },
     {
         category: 'Datenbanken',
-        items: ['SQL', 'MongoDB', 'PostgreSQL'],
+        items: ['PostgreSQL', 'MySQL', 'SQL Server', 'MongoDB'],
     },
     {
         category: 'DevOps & Cloud',
-        items: ['Docker', 'Jenkins', 'CI/CD', 'Azure', 'Git'],
+        items: ['Docker', 'Jenkins', 'GitLab CI', 'Azure DevOps', 'Azure App Service', 'Azure AD'],
+    },
+    {
+        category: 'Sicherheit',
+        items: ['JWT', 'OAuth2', 'Azure AD SSO'],
+    },
+    {
+        category: 'Qualität & Monitoring',
+        items: ['SonarQube', 'JUnit', 'Nexus', 'Prometheus', 'Grafana'],
     },
 ]
 
