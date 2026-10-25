@@ -1,0 +1,109 @@
+{
+    "nav": {
+        "about": "Über mich",
+        "skills": "Skills",
+        "projects": "Projekte",
+        "experience": "Erfahrung",
+        "contact": "Kontakt",
+        "toggleTheme": "Farbmodus wechseln",
+        "toggleMenu": "Menü öffnen",
+        "switchLang": "Switch to English"
+    },
+    "hero": {
+        "greeting": "Hallo, ich bin",
+        "role": "Full-Stack-Entwickler",
+        "intro": "Ich entwickle moderne Webanwendungen mit Spring Boot, Angular und React – vom Frontend bis zur Cloud. Aktuell suche ich eine Junior-Stelle in der Region Freiburg oder remote.",
+        "ctaProjects": "Projekte ansehen",
+        "ctaCv": "Lebenslauf",
+        "location": "Freiburg im Breisgau"
+    },
+    "about": {
+        "title": "Über mich",
+        "paragraphs": [
+            "Ich bin Softwareingenieur aus Tunesien und lebe heute in Freiburg im Breisgau. Mein Diplom in Software Engineering habe ich 2024 an der ESPRIT abgeschlossen.",
+            "In meinem Abschlussprojekt bei Insoméan Computer Solutions habe ich eine Webanwendung mit Spring Boot und Angular entwickelt, Single Sign-On über Azure AD umgesetzt und die Anwendung mit Azure DevOps in die Cloud gebracht. Zusätzlich habe ich Freelance-Projekte realisiert – von E-Commerce bis zu Machine-Learning-Empfehlungssystemen.",
+            "Mich begeistert der ganze Weg einer Anwendung – vom Frontend über das Backend bis zum Deployment in der Cloud. Aktuell suche ich eine Junior-Stelle in einem modernen Tech-Umfeld in der Region Freiburg oder remote."
+        ]
+    },
+    "skills": {
+        "title": "Skills",
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "databases": "Datenbanken",
+            "devops": "DevOps & Cloud",
+            "security": "Sicherheit",
+            "quality": "Qualität & Monitoring"
+        }
+    },
+    "projects": {
+        "title": "Projekte",
+        "github": "GitHub →",
+        "demo": "Live-Demo →",
+        "items": {
+            "automoto": {
+                "title": "AutoMoto – Fahrzeugmarktplatz",
+                "description": "Kauf- und Verkaufsplattform für Fahrzeuge mit 21 Datenmodellen und 67 API-Endpunkten. JWT-Authentifizierung, Zahlungen mit Stripe, Bild-Upload mit Cloudinary, mehrsprachig (EN/FR/AR) mit Dark Mode."
+            },
+            "library": {
+                "title": "Intelligente Bibliotheksverwaltung",
+                "description": "Freelance-Projekt: Webanwendung für Ausleihen, Rückgaben und Reservierungen mit einem Buchempfehlungssystem auf Basis von Machine Learning und einem Chatbot."
+            },
+            "ecommerce": {
+                "title": "E-Commerce-Plattform",
+                "description": "Freelance-Projekt: Plattform für Digital-Coaching und Marketing-Services mit PayPal-Zahlung, Bewertungssystem und Angebotsverwaltung."
+            },
+            "devops": {
+                "title": "DevOps-Pipeline",
+                "description": "Vollständige CI/CD-Pipeline für eine Spring-Boot/Angular-Anwendung mit Jenkins und Docker, Codequalität mit SonarQube und Monitoring mit Prometheus und Grafana."
+            },
+            "portfolio": {
+                "title": "Portfolio",
+                "description": "Diese Website – selbst entwickelt mit React, Vite und Tailwind CSS, responsiv, zweisprachig und mit Dark Mode."
+            }
+        }
+    },
+    "experience": {
+        "title": "Erfahrung",
+        "items": {
+            "insomean": {
+                "title": "Full-Stack-Entwickler & Cloud-Infrastruktur (Abschlussprojekt)",
+                "company": "Insoméan Computer Solutions",
+                "period": "Feb. 2024 – Dez. 2024",
+                "points": [
+                    "Webanwendung zur Digitalisierung des Trainingsmanagements mit Spring Boot und Angular",
+                    "Single Sign-On (SSO) über Azure Active Directory",
+                    "Cloud-Deployment mit Azure App Service, CI/CD über Azure DevOps",
+                    "Konfiguration von Azure AD, App Service, SQL-Datenbank und Azure Storage"
+                ]
+            },
+            "sebn": {
+                "title": "Softwareentwickler – Praktikum",
+                "company": "SE Bordnetze, Tunesien",
+                "period": "Jul. 2023 – Sep. 2023",
+                "points": [
+                    "Management-Webanwendung mit Angular (Frontend) und .NET/C# (Backend)",
+                    "Bestandsverfolgung und Auftragsabwicklung mit SQL Server"
+                ]
+            },
+            "esprit": {
+                "title": "Diplom – Software Engineering",
+                "company": "ESPRIT, Tunesien",
+                "period": "2019 – 2024",
+                "points": []
+            }
+        }
+    },
+    "contact": {
+        "title": "Kontakt",
+        "text": "Sie haben eine offene Stelle oder ein spannendes Projekt? Ich freue mich über Ihre Nachricht!",
+        "name": "Ihr Name",
+        "email": "Ihre E-Mail",
+        "message": "Ihre Nachricht",
+        "send": "Nachricht senden",
+        "sending": "Wird gesendet…",
+        "success": "Danke! Ihre Nachricht wurde gesendet.",
+        "error": "Etwas ist schiefgelaufen. Bitte schreiben Sie mir direkt per E-Mail.",
+        "privacy": "Ihre Daten werden nur zur Beantwortung Ihrer Anfrage verwendet und über Formspree übermittelt."
+    }
+}

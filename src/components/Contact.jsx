@@ -1,10 +1,12 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import SectionTitle from './SectionTitle'
 
 const inputClass =
     'w-full px-4 py-3 rounded-lg border bg-white dark:bg-gray-900 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-600'
 
 function Contact() {
+    const { t } = useTranslation()
     const [form, setForm] = useState({ name: '', email: '', message: '' })
     const [status, setStatus] = useState('idle')
 
@@ -36,14 +38,11 @@ function Contact() {
 
     return (
         <section id="contact" className="py-20">
-            <SectionTitle title="Kontakt" />
+            <SectionTitle title={t('contact.title')} />
 
             <div className="grid md:grid-cols-2 gap-10">
                 <div className="space-y-4 text-gray-600 dark:text-gray-400">
-                    <p>
-                        Sie haben eine offene Stelle oder ein spannendes Projekt?
-                        Ich freue mich über Ihre Nachricht!
-                    </p>
+                    <p>{t('contact.text')}</p>
                     <ul className="space-y-2">
                         <li>
                             ✉️{' '}
@@ -62,16 +61,16 @@ function Contact() {
                                 LinkedIn
                             </a>
                         </li>
-                        <li>📍 Freiburg im Breisgau</li>
+                        <li>📍 {t('hero.location')}</li>
                     </ul>
                 </div>
 
                 <form onSubmit={handleSubmit} className="space-y-4">
-                    <input type="text" name="name" placeholder="Ihr Name"
+                    <input type="text" name="name" placeholder={t('contact.name')}
                         value={form.name} onChange={handleChange} required className={inputClass} />
-                    <input type="email" name="email" placeholder="Ihre E-Mail"
+                    <input type="email" name="email" placeholder={t('contact.email')}
                         value={form.email} onChange={handleChange} required className={inputClass} />
-                    <textarea name="message" placeholder="Ihre Nachricht" rows="5"
+                    <textarea name="message" placeholder={t('contact.message')} rows="5"
                         value={form.message} onChange={handleChange} required className={inputClass} />
 
                     <button
@@ -79,21 +78,13 @@ function Contact() {
                         disabled={status === 'sending'}
                         className="px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors disabled:opacity-50"
                     >
-                        {status === 'sending' ? 'Wird gesendet…' : 'Nachricht senden'}
+                        {status === 'sending' ? t('contact.sending') : t('contact.send')}
                     </button>
 
-                    {status === 'success' && (
-                        <p className="text-green-600">Danke! Ihre Nachricht wurde gesendet.</p>
-                    )}
-                    {status === 'error' && (
-                        <p className="text-red-600">
-                            Etwas ist schiefgelaufen. Bitte schreiben Sie mir direkt per E-Mail.
-                        </p>
-                    )}
+                    {status === 'success' && <p className="text-green-600">{t('contact.success')}</p>}
+                    {status === 'error' && <p className="text-red-600">{t('contact.error')}</p>}
 
-                    <p className="text-xs text-gray-500 dark:text-gray-400">
-                        Ihre Daten werden nur zur Beantwortung Ihrer Anfrage verwendet und über Formspree übermittelt.
-                    </p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">{t('contact.privacy')}</p>
                 </form>
             </div>
         </section>

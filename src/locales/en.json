@@ -1,0 +1,109 @@
+{
+    "nav": {
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "experience": "Experience",
+        "contact": "Contact",
+        "toggleTheme": "Toggle color mode",
+        "toggleMenu": "Open menu",
+        "switchLang": "Auf Deutsch wechseln"
+    },
+    "hero": {
+        "greeting": "Hi, I'm",
+        "role": "Full-Stack Developer",
+        "intro": "I build modern web applications with Spring Boot, Angular and React – from the frontend to the cloud. I'm currently looking for a junior position in the Freiburg area or remote.",
+        "ctaProjects": "View projects",
+        "ctaCv": "Resume",
+        "location": "Freiburg im Breisgau, Germany"
+    },
+    "about": {
+        "title": "About me",
+        "paragraphs": [
+            "I'm a software engineer from Tunisia, now living in Freiburg im Breisgau, Germany. I graduated in Software Engineering from ESPRIT in 2024.",
+            "In my final-year project at Insoméan Computer Solutions, I built a web application with Spring Boot and Angular, implemented single sign-on with Azure AD and deployed the application to the cloud with Azure DevOps. I have also delivered freelance projects – from e-commerce to machine-learning recommendation systems.",
+            "I enjoy the whole journey of an application – from the frontend and backend all the way to cloud deployment. I'm currently looking for a junior position in a modern tech environment in the Freiburg area or remote."
+        ]
+    },
+    "skills": {
+        "title": "Skills",
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "databases": "Databases",
+            "devops": "DevOps & Cloud",
+            "security": "Security",
+            "quality": "Quality & Monitoring"
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "github": "GitHub →",
+        "demo": "Live demo →",
+        "items": {
+            "automoto": {
+                "title": "AutoMoto – Vehicle Marketplace",
+                "description": "Buy-and-sell platform for vehicles with 21 data models and 67 API endpoints. JWT authentication, payments with Stripe, image upload with Cloudinary, multilingual (EN/FR/AR) with dark mode."
+            },
+            "library": {
+                "title": "Smart Library Management",
+                "description": "Freelance project: web application for loans, returns and reservations, with a machine-learning book recommendation system and a chatbot."
+            },
+            "ecommerce": {
+                "title": "E-Commerce Platform",
+                "description": "Freelance project: platform for digital coaching and marketing services with PayPal payments, a rating system and offer management."
+            },
+            "devops": {
+                "title": "DevOps Pipeline",
+                "description": "Complete CI/CD pipeline for a Spring Boot/Angular application with Jenkins and Docker, code quality with SonarQube and monitoring with Prometheus and Grafana."
+            },
+            "portfolio": {
+                "title": "Portfolio",
+                "description": "This website – built by me with React, Vite and Tailwind CSS, responsive, bilingual and with dark mode."
+            }
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "items": {
+            "insomean": {
+                "title": "Full-Stack Developer & Cloud Infrastructure (Final-Year Project)",
+                "company": "Insoméan Computer Solutions",
+                "period": "Feb 2024 – Dec 2024",
+                "points": [
+                    "Web application to digitalize training management with Spring Boot and Angular",
+                    "Single sign-on (SSO) with Azure Active Directory",
+                    "Cloud deployment with Azure App Service, CI/CD with Azure DevOps",
+                    "Configuration of Azure AD, App Service, SQL Database and Azure Storage"
+                ]
+            },
+            "sebn": {
+                "title": "Software Developer – Internship",
+                "company": "SE Bordnetze, Tunisia",
+                "period": "Jul 2023 – Sep 2023",
+                "points": [
+                    "Management web application with Angular (frontend) and .NET/C# (backend)",
+                    "Inventory tracking and order processing with SQL Server"
+                ]
+            },
+            "esprit": {
+                "title": "Engineering Degree – Software Engineering",
+                "company": "ESPRIT, Tunisia",
+                "period": "2019 – 2024",
+                "points": []
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "text": "Do you have an open position or an exciting project? I look forward to hearing from you!",
+        "name": "Your name",
+        "email": "Your email",
+        "message": "Your message",
+        "send": "Send message",
+        "sending": "Sending…",
+        "success": "Thank you! Your message has been sent.",
+        "error": "Something went wrong. Please email me directly.",
+        "privacy": "Your data is only used to answer your request and is transmitted via Formspree."
+    }
+}
