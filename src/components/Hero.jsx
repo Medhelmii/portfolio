@@ -7,14 +7,14 @@ function Hero() {
                 Mohamed Helmi Karoui
             </h1>
 
-            <h2 className="text-2xl md:text-4xl font-semibold text-gray-500 mt-2">
+            <h2 className="text-2xl md:text-4xl font-semibold text-gray-500 dark:text-gray-400 mt-2">
                 Full-Stack-Entwickler
             </h2>
 
-            <p className="mt-6 max-w-xl text-lg text-gray-600">
-                Ich entwickle moderne Webanwendungen mit React, Angular und Spring Boot –
-                vom Frontend bis zur Cloud. Aktuell suche ich eine neue Herausforderung
-                in der Region Freiburg.
+            <p className="mt-6 max-w-xl text-lg text-gray-600 dark:text-gray-400">
+                Ich entwickle moderne Webanwendungen mit Spring Boot, Angular und React –
+                vom Frontend bis zur Cloud. Aktuell suche ich eine Junior-Stelle in der
+                Region Freiburg oder remote.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -27,13 +27,13 @@ function Hero() {
                 <a
                     href="/Lebenslauf-Helmi-Karoui.pdf"
                     download
-                    className="px-6 py-3 rounded-lg border border-gray-300 font-medium hover:border-blue-600 hover:text-blue-600 transition-colors"
+                    className="px-6 py-3 rounded-lg border border-gray-300 dark:border-gray-700 font-medium hover:border-blue-600 hover:text-blue-600 transition-colors"
                 >
                     Lebenslauf
                 </a>
             </div>
 
-            <p className="mt-8 text-sm text-gray-500">📍 Freiburg im Breisgau</p>
+            <p className="mt-8 text-sm text-gray-500 dark:text-gray-400">📍 Freiburg im Breisgau</p>
         </section>
     )
 }

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import SectionTitle from './SectionTitle'
 
 const inputClass =
-    'w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-600'
+    'w-full px-4 py-3 rounded-lg border bg-white dark:bg-gray-900 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-600'
 
 function Contact() {
     const [form, setForm] = useState({ name: '', email: '', message: '' })
@@ -17,14 +17,11 @@ function Contact() {
         setStatus('sending')
 
         try {
-            const res = await fetch(
-                `https://formspree.io/f/${import.meta.env.VITE_FORMSPREE_ID}`,
-                {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-                    body: JSON.stringify(form),
-                }
-            )
+            const res = await fetch(`https://formspree.io/f/${import.meta.env.VITE_FORMSPREE_ID}`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+                body: JSON.stringify(form),
+            })
 
             if (res.ok) {
                 setStatus('success')
@@ -42,8 +39,7 @@ function Contact() {
             <SectionTitle title="Kontakt" />
 
             <div className="grid md:grid-cols-2 gap-10">
-                {/* Links: Info */}
-                <div className="space-y-4 text-gray-600">
+                <div className="space-y-4 text-gray-600 dark:text-gray-400">
                     <p>
                         Sie haben eine offene Stelle oder ein spannendes Projekt?
                         Ich freue mich über Ihre Nachricht!
@@ -51,8 +47,8 @@ function Contact() {
                     <ul className="space-y-2">
                         <li>
                             ✉️{' '}
-                            <a href="mailto:mohamedhelmi.karoui1@gmail.com" className="hover:text-blue-600">
-                                mohamedhelmi.karoui1@gmail.com
+                            <a href="mailto:helmi.karoui1@gmail.com" className="hover:text-blue-600">
+                                helmi.karoui1@gmail.com
                             </a>
                         </li>
                         <li>
@@ -70,35 +66,13 @@ function Contact() {
                     </ul>
                 </div>
 
-                {/* Rechts: Formular */}
                 <form onSubmit={handleSubmit} className="space-y-4">
-                    <input
-                        type="text"
-                        name="name"
-                        placeholder="Ihr Name"
-                        value={form.name}
-                        onChange={handleChange}
-                        required
-                        className={inputClass}
-                    />
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="Ihre E-Mail"
-                        value={form.email}
-                        onChange={handleChange}
-                        required
-                        className={inputClass}
-                    />
-                    <textarea
-                        name="message"
-                        placeholder="Ihre Nachricht"
-                        rows="5"
-                        value={form.message}
-                        onChange={handleChange}
-                        required
-                        className={inputClass}
-                    />
+                    <input type="text" name="name" placeholder="Ihr Name"
+                        value={form.name} onChange={handleChange} required className={inputClass} />
+                    <input type="email" name="email" placeholder="Ihre E-Mail"
+                        value={form.email} onChange={handleChange} required className={inputClass} />
+                    <textarea name="message" placeholder="Ihre Nachricht" rows="5"
+                        value={form.message} onChange={handleChange} required className={inputClass} />
 
                     <button
                         type="submit"
@@ -117,9 +91,8 @@ function Contact() {
                         </p>
                     )}
 
-                    <p className="text-xs text-gray-500">
-                        Ihre Daten werden nur zur Beantwortung Ihrer Anfrage verwendet und über
-                        Formspree übermittelt.
+                    <p className="text-xs text-gray-500 dark:text-gray-400">
+                        Ihre Daten werden nur zur Beantwortung Ihrer Anfrage verwendet und über Formspree übermittelt.
                     </p>
                 </form>
             </div>
