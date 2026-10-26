@@ -15,7 +15,14 @@
         "intro": "Ich entwickle moderne Webanwendungen mit Spring Boot, Angular und React – vom Frontend bis zur Cloud. Aktuell suche ich eine Junior-Stelle in der Region Freiburg oder remote.",
         "ctaProjects": "Projekte ansehen",
         "ctaCv": "Lebenslauf",
-        "location": "Freiburg im Breisgau"
+        "location": "Freiburg im Breisgau",
+        "available": "Offen für neue Stellen",
+        "roles": [
+            "Full-Stack-Entwickler",
+            "Cloud & DevOps",
+            "Spring Boot + Angular",
+            "React-Entwickler"
+        ]
     },
     "about": {
         "title": "Über mich",

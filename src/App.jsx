@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import FadeIn from './components/FadeIn'
 
 function App() {
   return (
@@ -13,11 +14,11 @@ function App() {
       <Navbar />
       <main className="max-w-5xl mx-auto px-4 pt-16">
         <Hero />
-        <About />
-        <Skills />
+        <FadeIn><About /></FadeIn>
+        <FadeIn><Skills /></FadeIn>
         <Projects />
-        <Experience />
-        <Contact />
+        <FadeIn><Experience /></FadeIn>
+        <FadeIn><Contact /></FadeIn>
       </main>
       <Footer />
     </>

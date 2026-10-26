@@ -15,7 +15,14 @@
         "intro": "I build modern web applications with Spring Boot, Angular and React – from the frontend to the cloud. I'm currently looking for a junior position in the Freiburg area or remote.",
         "ctaProjects": "View projects",
         "ctaCv": "Resume",
-        "location": "Freiburg im Breisgau, Germany"
+        "location": "Freiburg im Breisgau, Germany",
+        "available": "Open to new opportunities",
+        "roles": [
+            "Full-Stack Developer",
+            "Cloud & DevOps",
+            "Spring Boot + Angular",
+            "React Developer"
+        ]
     },
     "about": {
         "title": "About me",
