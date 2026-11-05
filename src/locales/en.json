@@ -12,7 +12,7 @@
     "hero": {
         "greeting": "Hi, I'm",
         "role": "Full-Stack Developer",
-        "intro": "I build modern web applications with Spring Boot, Angular and React – from the frontend to the cloud. I'm currently looking for a junior position in the Freiburg area or remote.",
+        "intro": "I build modern web applications with Spring Boot, Angular and React – from the frontend to the cloud. I'm currently looking for a junior position in the Freiburg area , anywhere in Germany or remote.",
         "ctaProjects": "View projects",
         "ctaCv": "Resume",
         "location": "Freiburg im Breisgau, Germany",
@@ -29,7 +29,7 @@
         "paragraphs": [
             "I'm a software engineer from Tunisia, now living in Freiburg im Breisgau, Germany. I graduated in Software Engineering from ESPRIT in 2024.",
             "In my final-year project at Insoméan Computer Solutions, I built a web application with Spring Boot and Angular, implemented single sign-on with Azure AD and deployed the application to the cloud with Azure DevOps. I have also delivered freelance projects – from e-commerce to machine-learning recommendation systems.",
-            "I enjoy the whole journey of an application – from the frontend and backend all the way to cloud deployment. I'm currently looking for a junior position in a modern tech environment in the Freiburg area or remote."
+            "I enjoy the whole journey of an application – from the frontend and backend all the way to cloud deployment. I'm currently looking for a junior position in a modern tech environment in the Freiburg area , anywhere in Germany or remote."
         ]
     },
     "skills": {

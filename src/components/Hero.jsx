@@ -77,7 +77,7 @@ function Hero() {
                             <span className="inline-block ml-1 transition-transform group-hover:translate-x-1">→</span>
                         </a>
                         <a
-                            href="/Lebenslauf-Helmi-Karoui.pdf"
+                            href="/public/Lebenslauf_Mohamed_Helmi_Karoui_2026.pdf"
                             download
                             className="px-6 py-3 rounded-full border border-gray-300 dark:border-gray-700 font-medium backdrop-blur hover:border-blue-600 hover:text-blue-600 hover:-translate-y-0.5 transition-all"
                         >
@@ -95,7 +95,7 @@ function Hero() {
                     {/* Bunter Rahmen */}
                     <div className="absolute inset-0 rounded-[2rem] bg-linear-to-br from-blue-600 via-violet-600 to-cyan-500 rotate-6" />
                     <img
-                        src="/public/helmi_karoui.png"
+                        src="/public/helmi.jpg"
                         alt="Mohamed Helmi Karoui"
                         className="relative w-full h-full object-cover rounded-[2rem] border-4 border-white dark:border-gray-950"
                     />
