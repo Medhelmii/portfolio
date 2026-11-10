@@ -7,11 +7,12 @@ import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import FadeIn from './components/FadeIn'
-
+import ColorSwitcher from './components/ColorSwitcher'
 function App() {
   return (
     <>
       <Navbar />
+      <ColorSwitcher />
       <main className="max-w-5xl mx-auto px-4 pt-16">
         <Hero />
         <FadeIn><About /></FadeIn>

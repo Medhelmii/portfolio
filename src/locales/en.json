@@ -30,7 +30,16 @@
             "I'm a software engineer from Tunisia, now living in Freiburg im Breisgau, Germany. I graduated in Software Engineering from ESPRIT in 2024.",
             "In my final-year project at Insoméan Computer Solutions, I built a web application with Spring Boot and Angular, implemented single sign-on with Azure AD and deployed the application to the cloud with Azure DevOps. I have also delivered freelance projects – from e-commerce to machine-learning recommendation systems.",
             "I enjoy the whole journey of an application – from the frontend and backend all the way to cloud deployment. I'm currently looking for a junior position in a modern tech environment in the Freiburg area , anywhere in Germany or remote."
-        ]
+        ],
+        "info": {
+            "position": "Position",
+            "positionValue": "Software Engineer",
+            "location": "Location",
+            "languages": "Languages",
+            "languagesValue": "Arabic, German (B1), French, English",
+            "email": "Email",
+            "cv": "Download resume"
+        }
     },
     "skills": {
         "title": "Skills",

@@ -18,14 +18,14 @@ function Navbar() {
         <nav className="fixed top-0 w-full bg-white/80 dark:bg-gray-950/80 backdrop-blur border-b dark:border-gray-800 z-50">
             <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
                 <a href="#hero" className="text-xl font-bold">
-                    Helmi<span className="text-blue-600">.</span>
+                    Helmi<span className="text-accent">.</span>
                 </a>
 
                 <div className="flex items-center gap-4">
                     <ul className="hidden md:flex gap-6">
                         {links.map((id) => (
                             <li key={id}>
-                                <a href={`#${id}`} className="hover:text-blue-600 transition-colors">
+                                <a href={`#${id}`} className="hover:text-accent transition-colors">
                                     {t(`nav.${id}`)}
                                 </a>
                             </li>
@@ -35,7 +35,7 @@ function Navbar() {
                     <button
                         onClick={toggleLang}
                         aria-label={t('nav.switchLang')}
-                        className="text-sm font-semibold px-2 py-1 rounded border dark:border-gray-700 hover:border-blue-600 hover:text-blue-600"
+                        className="text-sm font-semibold px-2 py-1 rounded border dark:border-gray-700 hover:border-accent hover:text-accent"
                     >
                         {currentLang === 'de' ? 'EN' : 'DE'}
                     </button>

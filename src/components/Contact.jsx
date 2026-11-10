@@ -46,7 +46,7 @@ function Contact() {
                     <ul className="space-y-2">
                         <li>
                             ✉️{' '}
-                            <a href="mailto:helmi.karoui1@gmail.com" className="hover:text-blue-600">
+                            <a href="mailto:helmi.karoui1@gmail.com" className="hover:text-accent">
                                 helmi.karoui1@gmail.com
                             </a>
                         </li>
@@ -56,7 +56,7 @@ function Contact() {
                                 href="https://www.linkedin.com/in/mohamed-helmi-karoui-4341621a1"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="hover:text-blue-600"
+                                className="hover:text-accent"
                             >
                                 LinkedIn
                             </a>
@@ -76,7 +76,7 @@ function Contact() {
                     <button
                         type="submit"
                         disabled={status === 'sending'}
-                        className="px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors disabled:opacity-50"
+                        className="px-6 py-3 rounded-lg bg-accent text-white font-medium hover:bg-blue-700 transition-colors disabled:opacity-50"
                     >
                         {status === 'sending' ? t('contact.sending') : t('contact.send')}
                     </button>

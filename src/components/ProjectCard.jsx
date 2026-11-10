@@ -19,12 +19,12 @@ function ProjectCard({ project }) {
 
             <div className="mt-6 flex gap-4 text-sm font-medium">
                 {project.github && (
-                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="hover:text-accent">
                         {t('projects.github')}
                     </a>
                 )}
                 {project.demo && (
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="hover:text-accent">
                         {t('projects.demo')}
                     </a>
                 )}

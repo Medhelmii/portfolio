@@ -152,3 +152,11 @@ body {
         animation: none;
     }
 }
+
+@theme inline {
+    --color-accent: var(--accent);
+}
+
+:root {
+    --accent: #ffb400;
+}

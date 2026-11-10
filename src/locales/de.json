@@ -30,7 +30,16 @@
             "Ich bin Softwareingenieur aus Tunesien und lebe heute in Freiburg im Breisgau. Mein Diplom in Software Engineering habe ich 2024 an der ESPRIT abgeschlossen.",
             "In meinem Abschlussprojekt bei Insoméan Computer Solutions habe ich eine Webanwendung mit Spring Boot und Angular entwickelt, Single Sign-On über Azure AD umgesetzt und die Anwendung mit Azure DevOps in die Cloud gebracht. Zusätzlich habe ich Freelance-Projekte realisiert – von E-Commerce bis zu Machine-Learning-Empfehlungssystemen.",
             "Mich begeistert der ganze Weg einer Anwendung – vom Frontend über das Backend bis zum Deployment in der Cloud. Aktuell suche ich eine Junior-Stelle in einem modernen Tech-Umfeld in der Region Freiburg , deutschlandweit oder remote."
-        ]
+        ],
+        "info": {
+            "position": "Position",
+            "positionValue": "Software Engineer",
+            "location": "Standort",
+            "languages": "Sprachen",
+            "languagesValue": "Arabisch, Deutsch (B1), Französisch, Englisch",
+            "email": "E-Mail",
+            "cv": "Lebenslauf herunterladen"
+        }
     },
     "skills": {
         "title": "Skills",
